@@ -4,7 +4,7 @@ function Login({ providers }) {
 	return (
 		<div
 			className='flex flex-col items-center min-h-screen w-full justify-center 
-        bg-[url(https://wallpapercave.com/wp/ZGeMHlP.jpg)]'
+			bg-gradient-to-r from-gray-700 via-gray-900 to-black'
 		>
 			<img
 				className='w-52 mb-5'
