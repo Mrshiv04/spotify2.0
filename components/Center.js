@@ -66,9 +66,13 @@ function Center() {
 				{/* <h1>hello</h1> */}
 				<div>
 					<p>PLAYLIST</p>
-					<h1 className='text-2xl md:text-3xl lg:text-5xl font-bold'>
+					<h1 className='text-2xl md:text-3xl lg:text-6xl font-bold'>
 						{playlist?.name}
 					</h1>
+					<h6 className='pt-4 text-sm'>
+						<span className='font-bold'>{session?.user.name}</span> -{' '}
+						{playlist?.tracks.items.length} songs
+					</h6>
 				</div>
 			</section>
 			<div>
